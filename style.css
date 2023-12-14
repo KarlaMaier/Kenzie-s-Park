@@ -1,0 +1,194 @@
+* {
+    font-size: 16px;
+    max-width: 1600px;
+    font-family: 'Caveat', cursive;
+    text-decoration: none;
+  }
+
+
+
+/* menu */
+
+.menu{
+    float: right;
+}
+
+
+.list {
+    border: 2px solid #f7c6f6;
+    border-radius: 5px;
+    color: #F8F8F8;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: linear-gradient(rgb(218, 137, 235), #f08cdf);
+    display: inline-block;
+   
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.5rem; 
+
+  
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    text-align: center;
+    margin: center;
+    padding-top: 5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+/* intro */
+
+
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(228, 204, 250);
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.puppy img {
+display: inline-flex;
+flex-direction: column;
+justify-content: space-between;
+height: 25rem;
+width: 20rem;
+padding: 5rem 10rem 5rem 10rem;
+}
+
+
+/* interests */
+
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(248, 207, 243);
+    margin: 2rem 2rem 2rem 2rem;
+  
+
+}
+
+.park img {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+height: 25rem;
+width: 20rem;
+padding: 3rem 5rem 6rem 5rem;
+}
+
+/* hobbies */
+
+
+.hobbiescontainer{
+
+    background-color: #FEDEC0;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.hobbies h2{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.study{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  
+}
+.study img {
+height: 25rem;
+width: 20rem;
+padding: 3rem 5rem 6rem 5rem;
+
+}
+
+
+.beachcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.beach img {
+  
+    height: 50rem;
+    width: 40rem;
+    padding: 3rem 5rem 6rem 5rem;
+    }
+
+/* media queries */
+
+
+      
+      @media only screen and (max-resolution: 200dpi) and (max-width: 480px), (orientation: portrait) {
+        
+        img {max-width: 10rem; max-height: 10rem;}
+        p {font-size: 1.15rem;}
+        h2 {font-size: 2.15rem;}
+        h1{font-size: 3.15rem;}
+        .list {max-width: 5.10rem;}
+        .menu {padding-bottom: 3rem;}
+
+    }
+     
+    
+    @media only screen and (max-resolution: 300dpi) and (max-width: 1180px) {
+        
+        .title{display: flex;
+            justify-content: center;
+     
+            
+ 
+       }
+       p {font-size: 1.5rem;}
+       h2 {font-size: 2.15rem;}
+          
+       .list {max-width: 5.10rem;}
+  
+
+        .puppy{
+        display: flex;
+        justify-items: auto;}
+
+        .puppy img {max-width: 15rem; max-height: 15rem;
+        padding: 3rem;}
+
+        .park {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+    
+        }
+        .park img {max-width: 15rem; max-height: 15rem;
+        padding: 3rem;}
+     
+        .study {
+            display: flex;
+            justify-content: space-evenly;
+    
+        }
+        .study img {max-width: 15rem; max-height: 15rem;
+        padding: 3rem;}
+  
+            .beach img{max-width: 30rem; max-height: 40rem;
+                padding: 3rem;
+
+            }
+    }
